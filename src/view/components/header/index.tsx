@@ -1,5 +1,5 @@
 import lang from "../../../data/lang";
-import { useLangStore } from "../../../hooks/lang-state";
+import { trans, useLangStore } from "../../../hooks/lang-state";
 import './style.scss'
 
 function Header() {
@@ -31,10 +31,10 @@ function Header() {
         </nav>
         <ul className="header__right">
             <li className="header__ru">
-              <a onClick={setRu}>ru</a>
+                {lng == trans.ru ? <div>ru</div> : <a onClick={setRu}>ru</a>}
             </li>
             <li className="header__en">
-              <a onClick={setEn}>en</a>
+                {lng == trans.en ? <div>en</div> : <a onClick={setEn}>en</a>}
             </li>
             <button className="header__print" onClick={window.print}></button>
         </ul>

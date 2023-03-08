@@ -30,6 +30,12 @@
     display: flex;
     cursor: pointer;
     gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
 
     a {
       color: rgba(0, 0, 0, 0.76);
@@ -40,7 +46,11 @@
     }
     button {
       margin-left: 12px;
-      margin-top: -4px;
+    }
+    div {
+      cursor: default;
+      color: rgba(0, 0, 0, 0.9);
+      font-weight: 700;
     }
   }
 
@@ -53,12 +63,10 @@
     background-size: contain;
     transition: all 0.2s;
     border: none;
-    &:focus {
-      outline: none;
-    }
 
     &:hover {
       opacity: 0.6;
+      transform: scale(1.03);
     }
     &:active {
       opacity: 1;
