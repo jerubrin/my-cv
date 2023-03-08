@@ -1,0 +1,68 @@
+.header {
+  top: 0;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100vw - 110px);
+  padding: 0 55px;
+
+  // .header__left
+  &__left {}
+
+  // .header__links
+  &__links {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+
+    a {
+      color: rgba(0, 0, 0, 0.76);
+
+      &:hover {
+        color: rgba(19, 19, 186, 0.95);
+      }
+    }
+  }
+
+  // .header__right
+  &__right {
+    display: flex;
+    cursor: pointer;
+    gap: 16px;
+
+    a {
+      color: rgba(0, 0, 0, 0.76);
+
+      &:hover {
+        color: rgba(19, 19, 186, 0.95);
+      }
+    }
+    button {
+      margin-left: 12px;
+      margin-top: -4px;
+    }
+  }
+
+  // .header__print
+  &__print {
+    width: 40px;
+    height: 36px;
+    background: url(../../../assets/svg/print.svg) no-repeat center;
+    opacity: 0.44;
+    background-size: contain;
+    transition: all 0.2s;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+
+    &:hover {
+      opacity: 0.6;
+    }
+    &:active {
+      opacity: 1;
+    }
+  }
+
+}
