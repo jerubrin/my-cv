@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 0 55px;
   height: calc(100vh - 140px);
+  overflow: hidden;
 
   // .top__name
   &__name {
@@ -26,6 +27,7 @@
     text-align: left;
     margin: 0 0 auto;
     z-index: 1;
+    margin-top: 10px;
   }
 
   // .top__location
