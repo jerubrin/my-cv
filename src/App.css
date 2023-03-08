@@ -56,4 +56,9 @@ h3 {
   line-height: 56px;
   letter-spacing: 0em;
   text-align: center;
+  text-transform: uppercase;
+}
+
+span {
+  font-weight: 600;
 }

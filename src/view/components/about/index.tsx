@@ -1,14 +1,19 @@
+import { createRef, useEffect, useRef } from "react";
+import lang from "../../../data/lang";
+import { trans, useLangStore } from "../../../hooks/lang-state"
 import './style.scss'
 
 function About() {
+  const { lng } = useLangStore();
+
   return (
     <section className="about" id="about">
-      <h3 className="about__title">ABOUT</h3>
+      <h3 className="about__title">{lang[lng]["about"]}</h3>
       <div className="about__wrapper">
-        <p>Я начинающий <span>frontend разработчик</span> c хорошим опытом разработки учебных проектов.</p>
-        <p>В процессе обучения мою было выполнено более десятка различных работ, в рамках учебного курса <span>Rolling Scopes School</span>.</p>
-        <p>Имеется опыт работы с различными <span>инструментами</span> и <span>библиотеками</span>, опыт командной разработки, согласно методологии <span>git-flow</span>.</p>
-        <p>Мои работы имеют высокую оценку, как среди других студентов, так и среди менторов школы.</p>
+        <p dangerouslySetInnerHTML={{ __html: lang[lng]["about1"] }}></p>
+        <p dangerouslySetInnerHTML={{ __html: lang[lng]["about2"] }}></p>
+        <p dangerouslySetInnerHTML={{ __html: lang[lng]["about3"] }}></p>
+        <p dangerouslySetInnerHTML={{ __html: lang[lng]["about4"] }}></p>
       </div>
     </section>
   )
