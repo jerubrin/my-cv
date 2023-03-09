@@ -40,131 +40,149 @@ import iconStylusBw from "../assets/svg/18-stylus.svg";
 import iconZustandBw from "../assets/svg/19-zustand.png";
 
 const skills = [
-  { 
+  {
+    id: "html",
     name: "HTML",
     icon: iconHtml,
     iconBw: iconHtmlBw,
     colors: [ "#E44D26", "#F16529" ],
     width: 28.3,
   },
-  { 
+  {
+    id: "css",
     name: "CSS",
     icon: iconCss,
     iconBw: iconCssBw,
     colors: [ "#33AADD", "#1172B8" ],
     width: 28.3,
   },
-  { 
+  {
+    id: "js",
     name: "JavaScript",
     icon: iconJs,
     iconBw: iconJsBw,
     colors: [ "#F7DF1E", "#C2AE0B" ],
   },
-  { 
+  {
+    id: "ts",
     name: "TypeScript",
     icon: iconTs,
     iconBw: iconTsBw,
     colors: [ "#007ACC", "#004472" ],
   },
-  { 
+  {
+    id: "webpack",
     name: "webpack",
     icon: iconWebpack,
     iconBw: iconWebpackBw,
     colors: [ "#8ED6FB", "#1C78C0" ],
     width: 29.16,
   },
-  { 
+  {
+    id: "sass",
     name: "sass",
     icon: iconSass,
     iconBw: iconSassBw,
     colors: [ "#B892A4", "#CD6799" ],
     width: 40,
   },
-  { 
+  {
+    id: "less",
     name: "less",
     icon: iconLess,
     iconBw: iconLessBw,
     colors: [ "#2A4F84", "#183051" ],
     width: 59,
   },
-  { 
+  {
+    id: "git",
     name: "git",
     icon: iconGit,
     iconBw: iconGitBw,
     colors: [ "#D18C83", "#EE513B" ],
   },
-  { 
+  {
+    id: "node",
     name: "Node.js",
     icon: iconNode,
     iconBw: iconNodeBw,
     colors: [ "#425F20", "#83CD29" ],
-    width: 29.26,
   },
-  { 
+  {
+    id: "mongodb",
     name: "MongoDB",
     icon: iconMongo,
     iconBw: iconMongoBw,
     colors: [ "#8CBE8B", "#439945" ],
+    width: 20
   },
-  { 
+  {
+    id: "react",
     name: "React",
     icon: iconReact,
     iconBw: iconReactBw,
     colors: [ "#346775", "#53C1DE" ],
     width: 38.08,
   },
-  { 
+  {
+    id: "redux",
     name: "Redux",
     icon: iconRedux,
     iconBw: iconHtmlBw,
     colors: [ "#3B2163", "#764ABC" ],
     width: 35,
   },
-  { 
+  {
+    id: "docker",
     name: "Docker",
     icon: iconDocker,
     iconBw: iconDockerBw,
     colors: [ "#9AC3D9", "#1794D4" ],
   },
-  { 
+  {
+    id: "cicd",
     name: "CI/CD",
     icon: iconCicd,
     iconBw: iconCicdBw,
     colors: [ "#81AACB", "#3B94D9" ],
   },
-  { 
+  {
+    id: "figma",
     name: "Figma",
     icon: iconFigma,
     iconBw: iconFigmaBw,
     colors: [ "#AA79E9", "#FF7262" ],
-    width: 25,
+    width: 24,
   },
-  { 
+  {
+    id: "json",
     name: "JSON",
     icon: iconJson,
     iconBw: iconJsonBw,
     colors: [ "#A0A0A0", "#565656" ],
     width: 35,
   },
-  { 
+  {
+    id: "bem",
     name: "BEM",
     icon: iconBem,
     iconBw: iconBemBw,
     colors: [ "#64B1D8", "#0074AF" ],
+    width: 40,
   },
-  { 
+  {
+    id: "stylus",
     name: "Stylus",
     icon: iconStylus,
     iconBw: iconStylusBw,
     colors: [ "#C1CD7E", "#90A611" ],
-    width: 26,
   },
-  { 
+  {
+    id: "zustand",
     name: "Zustand",
     icon: iconZustand,
     iconBw: iconZustandBw,
     colors: [ "#AA6351", "#443E38" ],
-    width: 27,
   },
 ]
 
