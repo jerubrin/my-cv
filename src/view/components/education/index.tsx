@@ -8,7 +8,7 @@ function Education() {
 
   return (
     <section className="education" id="education">
-      <h3 className="education__title">EDUCATION</h3>
+      <h3 className="education__title">{lang[lng]["education"]}</h3>
       <div className="education__list">
         {education.map((educ) =>
           <>

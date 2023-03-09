@@ -1,0 +1,158 @@
+.footer {
+  padding: 55px;
+  background: #151515;
+  display: flex;
+  flex-direction: column;
+
+  // .footer__up
+  &__up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 69px;
+  }
+
+  // .footer__left
+  &__left {}
+
+  // .footer__links
+  &__links {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+
+    a {
+      color: rgba(255, 255, 255, 0.5);
+
+      &:hover {
+        color: rgba(141, 141, 239, 0.95);
+      }
+    }
+  }
+
+  // .footer__link
+  &__link {}
+
+  // .footer__right
+  &__right {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+  }
+
+  // .footer__ru
+  &__ru {
+    a {
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+    div {
+      color: rgba(255, 255, 255, 0.95);
+      font-weight: 600;
+    }
+  }
+
+  // .footer__en
+  &__en {
+    a {
+      color: rgba(255, 255, 255, 0.5);
+      cursor: pointer;
+    }
+    div {
+      color: rgba(255, 255, 255, 0.95);
+      font-weight: 600;
+    }
+  }
+
+  // .footer__print
+  &__print {
+    width: 40px;
+    height: 36px;
+    margin-left: 12px;
+    background: url(../../../assets/svg/print-footer.svg) no-repeat center;
+    opacity: 0.44;
+    background-size: contain;
+    transition: all 0.2s;
+    border: none;
+
+    &:hover {
+      opacity: 0.6;
+      transform: scale(1.03);
+    }
+    &:active {
+      opacity: 1;
+    }
+  }
+
+  // .footer__down
+  &__down {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  // .footer__contacts
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+  }
+
+  // .footer__contact-icon
+  &__contact-icon {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.65;
+    transition: all 0.2s;
+  }
+
+  // .footer__contact-text
+  &__contact-text {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  // .footer__contact-item
+  &__contact-item {
+    a {
+      display: flex;
+      gap: 16px;
+    }
+
+    &:hover {
+
+      .footer__contact-text {
+        color: rgba(255, 255, 255, 0.95);
+      }
+      .footer__contact-icon {
+        opacity: 1;
+      }
+    }
+  }
+
+  // .footer__rs-logo
+  &__rs-logo {
+    width: 97px;
+    height: 38px;
+    background: url(../../../assets/svg/rs-logo.svg);
+  }
+
+  // .footer__designed-by
+  &__designed-by {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+}
