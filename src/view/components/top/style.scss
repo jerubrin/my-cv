@@ -58,7 +58,7 @@
   // .top__contacts
   &__contacts {
     position: absolute;
-    top: calc(100vh - 48px - 58px - 140px);
+    top: calc(100vh - 28px - 58px - 140px);
     display: flex;
     gap: 10px;
     left: calc(50vw - 140px);
@@ -81,36 +81,6 @@
         opacity: 1;
       }
     }
-  }
-
-  // .top__whatsapp-btn
-  &__whatsapp-btn {
-    background: url(../../../assets/svg/whatsapp.svg) no-repeat center;
-    background-size: contain;
-  }
-
-  // .top__telegram-btn
-  &__telegram-btn {
-    background: url(../../../assets/svg/telegram.svg) no-repeat center;
-    background-size: contain;
-  }
-
-  // .top__linkedin-btn
-  &__linkedin-btn {
-    background: url(../../../assets/svg/linkedin.svg) no-repeat center;
-    background-size: contain;
-  }
-
-  // .top__email-btn
-  &__email-btn {
-    background: url(../../../assets/svg/email.svg) no-repeat center;
-    background-size: contain;
-  }
-
-  // .top__github-btn
-  &__github-btn {
-    background: url(../../../assets/svg/github.svg) no-repeat center;
-    background-size: contain;
   }
 
   // .top__image

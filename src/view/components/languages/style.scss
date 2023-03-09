@@ -13,8 +13,8 @@
   // .languages__list
   &__list {
     display: grid;
-    grid-template-columns: 256px 310px auto;
-    gap: 26px 0;
+    grid-template-columns: auto auto auto;
+    gap: 26px 62px;
     align-items: baseline;
   }
 
