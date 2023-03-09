@@ -14,7 +14,7 @@ const projects = [
     gitUrl: "https://github.com/jerubrin/online-zoo",
     forPrint: true,
     shortDescription: "PetStory Online Short Desc",
-    icon: project1,
+    screenshot: project1,
   },
   {
     name: "Momentum",
@@ -24,7 +24,7 @@ const projects = [
     gitUrl: "https://github.com/jerubrin/momentum/",
     forPrint: false,
     shortDescription: "",
-    icon: project2,
+    screenshot: project2,
   },
   {
     name: "Tags",
@@ -34,7 +34,7 @@ const projects = [
     gitUrl: "https://github.com/jerubrin/15-puzzle/",
     forPrint: true,
     shortDescription: "Tags Short Desc",
-    icon: project3,
+    screenshot: project3,
   },
   {
     name: "Songbird",
@@ -44,7 +44,7 @@ const projects = [
     gitUrl: "https://github.com/jerubrin/soungbird/",
     forPrint: false,
     shortDescription: "",
-    icon: project4,
+    screenshot: project4,
   },
   {
     name: "Online Store",
@@ -54,7 +54,7 @@ const projects = [
     gitUrl: "https://github.com/jerubrin/online-store/",
     forPrint: false,
     shortDescription: "",
-    icon: project5,
+    screenshot: project5,
   },
   {
     name: "Gaming Zone",
@@ -64,7 +64,7 @@ const projects = [
     gitUrl: "https://github.com/LoginovskyMax/RsClone",
     forPrint: true,
     shortDescription: "Gaming Zone Short Desc",
-    icon: project6,
+    screenshot: project6,
   },
 ];
 

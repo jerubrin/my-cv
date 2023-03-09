@@ -2,13 +2,14 @@ import android from "../assets/img/android-2021.jpg";
 import preSchool from "../assets/img/pre-school-2022q2.jpg";
 import noSert from "../assets/img/no-sert.jpg";
 
-const sourses = [
+const courses = [
   {
     year: "2021-2022",
     where: "The Rolling Scopes School",
     profession: "Android 2021 (Android Kotlin)",
     picture: android,
     isNoSetr: false,
+    url: "https://app.rs.school/certificate/cawdlaew",
   },
   {
     year: "2022-2022",
@@ -16,6 +17,7 @@ const sourses = [
     profession: "Pre-School 2022Q2 (JavaScript)",
     picture: preSchool,
     isNoSetr: false,
+    url: "https://app.rs.school/certificate/h54d6r4r",
   },
   {
     year: "2022-2023",
@@ -23,8 +25,7 @@ const sourses = [
     profession: "JavaScript/Front-end 2022Q3",
     picture: noSert,
     isNoSetr: true,
-
   },
 ];
 
-export default sourses;
+export default courses;

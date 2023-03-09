@@ -1,4 +1,4 @@
-const edusation = [
+const education = [
   {
     year: "2004-2008",
     where: "Karaganda Polytechnic College",
@@ -11,4 +11,4 @@ const edusation = [
   },
 ];
 
-export default edusation;
+export default education;

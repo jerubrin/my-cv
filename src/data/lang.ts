@@ -24,7 +24,7 @@ const privateLang = {
 
     "Karaganda Polytechnic College": "Karaganda Polytechnic College",
     "Karaganda Technical University": "Karaganda Technical University",
-    "Information Technology and progaraming": "Information Technology and progaramming",
+    "Information Technology and progaraming": "Information Technology and progaraming",
     "Information Technology": "Information Technology",
 
     "completed": "completed",
@@ -71,7 +71,7 @@ const privateLang = {
 
     "Karaganda Polytechnic College": "Карагандинский Политехнический Колледж",
     "Karaganda Technical University": "Карагандинский Технический Университет",
-    "Information Technology and progaramming": "Информационные технологии и прогарамирование",
+    "Information Technology and progaraming": "Информационные технологии и прогарамирование",
     "Information Technology": "Информационные технологии",
 
     "completed": "завершен",
