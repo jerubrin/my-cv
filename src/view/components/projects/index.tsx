@@ -24,7 +24,7 @@ function Projects() {
                   <a className="projects__github" href={proj.gitUrl} target="_blank">
                     <div className="projects__github-icon"></div>
                     <div className="projects__github-wrapper">
-                      <p className="projects__github-url">jerubrin/online-zoo</p>
+                      <p className="projects__github-url">{proj.git}</p>
                     </div>
                   </a>
                 </div>
