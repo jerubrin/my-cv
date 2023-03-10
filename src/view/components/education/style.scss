@@ -21,6 +21,7 @@
     font-weight: 700;
     line-height: 38px;
     text-align: left;
+    color: #000000f2;
   }
   
   // .education__right-warpper
@@ -35,6 +36,7 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 38px;
+    color: #000000f2;
   }
   
   // .education__profession
@@ -43,6 +45,7 @@
     font-weight: 300;
     line-height: 38px;
     text-align: right;
+    color: #000000d4;
   }
 
   @media screen and (max-width: 960px) {
@@ -50,6 +53,7 @@
 
     &__title {
       text-align: right;
+      color: #000000f2;
     }
 
     &__list {

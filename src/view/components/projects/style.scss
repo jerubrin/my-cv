@@ -8,6 +8,7 @@
   // .projects__title
   &__title {
     margin-bottom: 77px;
+    color: #000000f2;
   }
   
   // .projects__list
@@ -133,7 +134,7 @@
     padding: 77px 20px 172px;
     
     &__list {
-      gap: 100px;
+      gap: 130px;
     }
 
     &__item {
@@ -143,7 +144,7 @@
     &__github {
       opacity: 1;
       position: relative;
-      bottom: -62px;
+      bottom: -76px;
     }
 
     &__github-url {
@@ -179,11 +180,11 @@
 
   @media screen and (max-width: 560px) {
     &__name {
-      top: -52px;
+      top: -56px;
     }
 
     &__github {
-      bottom: -52px;
+      bottom: -62px;
     }
 
     // 0.615384615384615
@@ -200,9 +201,9 @@
     }
 
     &__name {
-      margin-bottom: 18px;
-      font-size: 18px;
-      line-height: 18px;
+      margin-bottom: 24px;
+      font-size: 24px;
+      line-height: 24px;
     }
   
     &__github-icon {

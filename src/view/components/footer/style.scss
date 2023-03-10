@@ -100,6 +100,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    justify-content: flex-end;
   }
 
   // .footer__contact-icon
@@ -116,7 +117,8 @@
   &__contact-text {
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 18px;
+    margin: auto 0;
     text-align: left;
     color: rgba(255, 255, 255, 0.5);
   }
