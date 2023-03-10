@@ -1,0 +1,22 @@
+@media print {
+  .p-left {
+    min-width: 31.428571428571429vw;
+    min-height: 100vh;
+    background: #DCE6F2;
+  }
+
+  .p-photo {
+    margin: 10px auto;
+  }
+
+  .p-title-left {
+    padding: 8px;
+    background-color: #1F4765;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,26 @@
+@media print {
+  .p-contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 8px;
+    gap: 4px;
+
+    // .p-contacts__item
+    &__item {
+      display: flex;
+      gap: 8px;
+    }
+
+    // .p-contacts__icon
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+
+    // .p-contacts__text
+    &__text {
+
+    }
+
+  }
+}

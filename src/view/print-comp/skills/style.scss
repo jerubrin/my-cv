@@ -1,0 +1,26 @@
+@media print {
+  .p-skills {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 8px;
+    gap: 4px;
+
+    // .p-skills__item
+    &__item {
+      display: flex;
+      gap: 8px;
+    }
+
+    // .p-skills__icon
+    &__icon {
+      width: 16px;
+      height: 16px;
+    }
+
+    // .p-skills__text
+    &__text {
+
+    }
+
+  }
+}

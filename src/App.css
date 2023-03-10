@@ -73,3 +73,25 @@ p {
 span {
   font-weight: 600;
 }
+
+@page {
+  /* size: 21cm 29.7cm; */
+  /* margin: 30mm 45mm 30mm 45mm; */
+}
+
+@media print {
+  .header, .top, .about, .footer, .skills, .languages, .two-blocks, .projects {
+    display: none !important;
+  }
+
+  body {
+    background: transparent !important;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+  }
+}

@@ -21,23 +21,23 @@ import iconZustand from "../assets/svg/19-zustand.png";
 
 import iconHtmlBw from "../assets/svg/01-html-bw.svg";
 import iconCssBw from "../assets/svg/02-css-bw.svg";
-import iconJsBw from "../assets/svg/03-js.svg";
-import iconTsBw from "../assets/svg/04-ts.svg";
-import iconWebpackBw from "../assets/svg/05-webpack.svg";
-import iconSassBw from "../assets/svg/06-sass.svg";
-import iconLessBw from "../assets/svg/07-less.svg";
-import iconGitBw from "../assets/svg/08-git.svg";
-import iconNodeBw from "../assets/svg/09-node.svg";
-import iconMongoBw from "../assets/svg/10-mongo.svg";
-import iconReactBw from "../assets/svg/11-react.svg";
-import iconReduxBw from "../assets/svg/12-redux.svg";
-import iconDockerBw from "../assets/svg/13-docker.svg";
-import iconCicdBw from "../assets/svg/14-cicd.svg";
-import iconFigmaBw from "../assets/svg/15-figma.svg";
-import iconJsonBw from "../assets/svg/16-json.svg";
-import iconBemBw from "../assets/svg/17-bem.svg";
-import iconStylusBw from "../assets/svg/18-stylus.svg";
-import iconZustandBw from "../assets/svg/19-zustand.png";
+import iconJsBw from "../assets/svg/03-js-bw.svg";
+import iconTsBw from "../assets/svg/04-ts-bw.svg";
+import iconWebpackBw from "../assets/svg/05-webpack-bw.svg";
+import iconSassBw from "../assets/svg/06-sass-bw.svg";
+import iconLessBw from "../assets/svg/07-less-bw.svg";
+import iconGitBw from "../assets/svg/08-git-bw.svg";
+import iconNodeBw from "../assets/svg/09-node-bw.svg";
+import iconMongoBw from "../assets/svg/10-mongo-bw.svg";
+import iconReactBw from "../assets/svg/11-react-bw.svg";
+import iconReduxBw from "../assets/svg/12-redux-bw.svg";
+import iconDockerBw from "../assets/svg/13-docker-bw.svg";
+import iconCicdBw from "../assets/svg/14-cicd-bw.svg";
+import iconFigmaBw from "../assets/svg/15-figma-bw.svg";
+import iconJsonBw from "../assets/svg/16-json-bw.svg";
+import iconBemBw from "../assets/svg/17-bem-bw.svg";
+import iconStylusBw from "../assets/svg/18-stylus-bw.svg";
+import iconZustandBw from "../assets/svg/19-zustand-bw.png";
 
 const skills = [
   {
@@ -128,7 +128,7 @@ const skills = [
     id: "redux",
     name: "Redux",
     icon: iconRedux,
-    iconBw: iconHtmlBw,
+    iconBw: iconReduxBw,
     colors: [ "#3B2163", "#764ABC" ],
     width: 35,
   },

@@ -1,0 +1,30 @@
+@media print {
+  .p-lang {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 8px;
+    gap: 8px;
+
+    // .p-lang__item
+    &__item {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    // .p-lang__name
+    &__name {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    }
+
+    // .p-lang__level
+    &__level {
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 15px;
+      text-align: right;
+    }
+
+  }
+}
