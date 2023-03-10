@@ -1,0 +1,49 @@
+@media print {
+  .p-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 4px 0;
+
+    // .p-projects__item
+    &__item {
+      text-align: left;
+    }
+
+    // .p-projects__name
+    &__name {
+      font-weight: 800;
+    }
+
+    // .p-projects__desc
+    &__desc {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 14px;
+      margin: 4px 0 5px;
+    }
+
+    // .p-projects__deploy
+    &__deploy {
+      display: flex;
+      gap: 5px;
+    }
+
+    // .p-projects__deploy-text
+    &__deploy-text {
+      font-weight: 300;
+    }
+
+    // .p-projects__github
+    &__github {
+      display: flex;
+      gap: 5px;
+    }
+
+    // .p-projects__github-text
+    &__github-text {
+      font-weight: 300;
+    }
+
+  }
+}
