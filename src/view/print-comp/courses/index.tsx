@@ -9,8 +9,8 @@ function PCourses() {
 
   return (
     <div className="p-courses">
-      {courses.map((course) =>
-        <div className="p-courses__item">
+      {courses.map((course, i) =>
+        <div className="p-courses__item" key={i}>
           <div className="p-courses__year">{lang[lng][course.year]}</div>
           <div className="p-courses__right">
             <div className="p-courses__where">{lang[lng][course.where]}</div>

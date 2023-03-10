@@ -11,8 +11,8 @@ function PProjects() {
 
   return (
     <div className="p-projects">
-      {projects.filter((proj) => proj.forPrint).map((project) =>
-        <div className="p-projects__item" key={project.name}>
+      {projects.filter((proj) => proj.forPrint).map((project, i) =>
+        <div className="p-projects__item" key={i}>
           <div className="p-projects__name">{lang[lng][project.name]}</div>
           <div className="p-projects__desc" dangerouslySetInnerHTML={{__html: lang[lng][project.shortDescription]}} />
           <div className="p-projects__deploy">

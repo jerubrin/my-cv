@@ -8,8 +8,8 @@ function PContacts() {
 
   return (
     <div className="p-contacts">
-      {contacts.map((cont) =>
-        <div className="p-contacts__item">
+      {contacts.map((cont, i) =>
+        <div className="p-contacts__item" key={i}>
           <img className="p-contacts__icon" src={cont.iconBw} width="16px" height="16px" />
           <div className="p-contacts__text">{cont.text}</div>
         </div>

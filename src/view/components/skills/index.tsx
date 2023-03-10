@@ -10,10 +10,11 @@ function Skills() {
     <section className="skills" id="skills">
       <h3 className="skills__title">{lang[lng]["skills"]}</h3>
       <ul className="skills__list">
-        {skills.map((skill) => 
+        {skills.map((skill, i) => 
           <li
             className={`skills__item skills__item_${skill.id}`}
-            style={{ background: `linear-gradient(94.69deg, ${skill.colors[0]} 0%, ${skill.colors[1]} 100%)` }} >
+            style={{ background: `linear-gradient(94.69deg, ${skill.colors[0]} 0%, ${skill.colors[1]} 100%)` }}
+            key={i} >
             <div
               className="skills__icon"
               style={{ 

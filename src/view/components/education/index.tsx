@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import education from "../../../data/education"
 import lang from "../../../data/lang";
 import { useLangStore } from "../../../hooks/lang-state"
@@ -10,14 +11,14 @@ function Education() {
     <section className="education" id="education">
       <h3 className="education__title">{lang[lng]["education"]}</h3>
       <div className="education__list">
-        {education.map((educ) =>
-          <>
+        {education.map((educ, i) =>
+          <Fragment key={i}>
             <div className="education__year">{educ.year}</div>
             <div className="education__right-warpper">
               <div className="education__where">{lang[lng][educ.where]}</div>
               <div className="education__profession">{lang[lng][educ.profession]}</div>
             </div>
-          </>
+          </Fragment>
         )}
       </div>
     </section>

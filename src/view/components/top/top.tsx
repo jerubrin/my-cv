@@ -15,12 +15,13 @@ function Top() {
           <p className="top__location-text">{lang[lng]["Kazakhstan, Karaganda"]}</p>
       </div>
       <div className="top__contacts">
-        {contacts.map((contact) => 
+        {contacts.map((contact, i) => 
           (<a 
             className={`top__${contact.id}-btn`}
             style={{ backgroundImage: `url(${contact.icon})` }}
             href={contact.url}
             target="_blank"
+            key={i}
           ></a>)
         )}
       </div>

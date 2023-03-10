@@ -43,8 +43,8 @@ function Footer() {
       </div>
       <div className="footer__down">
         <ul className="footer__contacts">
-          {contacts.map((contact) => 
-            <li className="footer__contact-item">
+          {contacts.map((contact, i) => 
+            <li className="footer__contact-item" key={i}>
               <a href={contact.url} target="_blank">
                 <div
                   className="footer__contact-icon"

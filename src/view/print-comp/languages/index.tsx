@@ -9,8 +9,8 @@ function PLanguages() {
 
   return (
     <div className="p-lang">
-      {languiges.map((language) => 
-        <div className="p-lang__item">
+      {languiges.map((language, i) => 
+        <div className="p-lang__item" key={i}>
           <div className="p-lang__name">{lang[lng][language.name]}</div>
           <div className="p-lang__level">{lang[lng][language.level]}</div>
         </div>

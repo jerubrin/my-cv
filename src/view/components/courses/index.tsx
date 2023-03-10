@@ -12,7 +12,7 @@ function Courses() {
       <h3 className="courses__title">{lang[lng]["courses"]}</h3>
       <div className="courses__list">
         {courses.map((course, i) =>
-          <Course url={course.url}>
+          <Course url={course.url} key={i}>
             <div 
               className={`courses__picture courses__picture_${i+1}`}
               style={{ backgroundImage: `url(${course.picture})` }}

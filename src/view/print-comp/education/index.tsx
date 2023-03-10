@@ -9,8 +9,8 @@ function PEducation() {
 
   return (
     <div className="p-education">
-      {education.map((educat) =>
-        <div className="p-education__item">
+      {education.map((educat, i) =>
+        <div className="p-education__item" key={i}>
           <div className="p-education__year">{lang[lng][educat.year]}</div>
           <div className="p-education__right">
             <div className="p-education__where">{lang[lng][educat.where]}</div>

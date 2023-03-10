@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import lang from "../../../data/lang";
 import projects from "../../../data/projects";
 import { useLangStore } from "../../../hooks/lang-state"
@@ -10,8 +11,8 @@ function Projects() {
     <section className="projects" id="projects">
       <h3 className="projects__title">{lang[lng]["projects"]}</h3>
       <div className="projects__list">
-        {projects.map((proj) =>
-          <>
+        {projects.map((proj, i) =>
+          <Fragment key={i}>
             <a className="projects__item" href={proj.url} target="_blank">
               <div className="projects__wrapper">
                 <div
@@ -30,7 +31,7 @@ function Projects() {
                 </div>
               </div>
             </a>
-          </>
+          </Fragment>
         )}
       </div>
     </section>
