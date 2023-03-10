@@ -2,8 +2,8 @@
   .p-skills {
     display: flex;
     flex-direction: column;
-    padding: 14px 8px;
-    gap: 4px;
+    padding: 18px 8px 0;
+    gap: 6px;
 
     // .p-skills__item
     &__item {
@@ -16,11 +16,5 @@
       width: 16px;
       height: 16px;
     }
-
-    // .p-skills__text
-    &__text {
-
-    }
-
   }
 }

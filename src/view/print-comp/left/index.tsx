@@ -12,7 +12,7 @@ function Left() {
 
   return (
     <div className="p-left">
-      <img className="p-photo" src={photo} width="97px" height="117px" />
+      <img className="p-photo" src={photo} width="130px" height="157px" />
       <div className="p-title-left">{lang[lng]["contacts"]}</div>
       <PContacts />
       <div className="p-title-left">{lang[lng]["languages"]}</div>

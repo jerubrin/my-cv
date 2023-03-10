@@ -1,7 +1,7 @@
 @media print {
   .p-right {
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 14px);
     padding: 7px 15px;
 
     // .p-right__full-name
@@ -52,6 +52,7 @@
 
   .p-hr {
     height: 3px;
+    margin: 14px 0;
     background: #1F4765;
   }
 }

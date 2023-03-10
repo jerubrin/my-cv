@@ -1,4 +1,3 @@
-import contacts from "../../../data/contacts"
 import lang from "../../../data/lang";
 import { useLangStore } from "../../../hooks/lang-state"
 import './style.scss'
