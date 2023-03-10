@@ -7,6 +7,20 @@
   width: calc(100vw - 110px);
   padding: 0 55px;
 
+  // .header__menu
+  &__menu {
+    display: none;
+    width: 36px;
+    height: 36px;
+    background: url(../../../assets/svg/burger.svg) no-repeat center;
+    background-size: contain;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
   // .header__left
   &__left {}
 
@@ -70,6 +84,32 @@
     &:active {
       opacity: 1;
     }
+  }
+
+  @media screen and (max-width: 1024px) {
+    padding: 0 36px;
+    width: calc(100vw - 72px);
+    height: 80px;
+  }
+
+  @media screen and (max-width: 960px) {
+
+    &__menu {
+      display: flex;
+    }
+
+    &__links {
+      display: none;
+    }
+
+    &__print {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    padding: 0 20px;
+    width: calc(100vw - 60px);
   }
 
 }

@@ -1,12 +1,15 @@
 import lang from "../../../data/lang";
 import { trans, useLangStore } from "../../../hooks/lang-state";
+import { usePopMenuStore } from "../../../hooks/pop-up-state";
 import './style.scss'
 
 function Header() {
   const { lng, setEn, setRu } = useLangStore();
+  const { showPopMenu } = usePopMenuStore()
 
   return (
     <header className="header">
+        <button className="header__menu" onClick={showPopMenu}/>
         <nav className="header__left">
             <ul className="header__links">
                 <li className="header__link">

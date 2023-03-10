@@ -35,7 +35,9 @@
   // .courses__picture
   &__picture {
     width: 340px;
+    min-width: 340px;
     height: 241px;
+    min-height: 241px;
     display: flex;
     flex-direction: column;
     background-position: center;
@@ -85,5 +87,80 @@
     line-height: 38px;
   }
 
+  @media screen and (max-width: 960px) {
+    &__title {
+      align-self: flex-start;
+      margin-left: 36px;
+    }
+
+    &__list {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px
+    }
+
+    &__item-no {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__description {
+      width: auto;
+      margin: auto 0;
+    }
+
+    &__where {
+      max-width: 100%;
+      text-align: right;
+    }
+
+    &__profession {
+      max-width: 100%;
+      text-align: right;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    &__title {
+      align-self: center;
+      margin-left: 0;
+    }
+
+    &__list {
+      align-items: center;
+      gap: 73px
+    }
+
+    &__item {
+      flex-direction: column;
+    }
+
+    &__item-no {
+      flex-direction: column;
+    }
+
+    &__description {
+      max-width: 340px;
+      margin: auto 0;
+    }
+
+    &__where {
+      margin-bottom: 4px;
+      font-size: 26px;
+      line-height: 31px;
+      text-align: center;
+    }
+
+    &__profession {
+      text-align: center;
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
 
 }

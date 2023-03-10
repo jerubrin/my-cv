@@ -66,5 +66,28 @@
     }
   }
 
-  
+  @media screen and (max-width: 960px) {
+    padding: 77px 36px 70px;
+
+    &__title {
+      align-self: flex-start;
+    }
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      margin-right: auto;
+      gap: 0;
+    }
+
+    &__level {
+      margin: -8px 0 13px;
+    }
+
+    &__points {
+      margin-bottom: 55px;
+      align-self: flex-start;
+    }
+  }
+
 }

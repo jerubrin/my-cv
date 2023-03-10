@@ -8,26 +8,23 @@
 
   // .top__name
   &__name {
-    font-family: Raleway;
-    font-size: 96px;
-    font-weight: 200;
-    line-height: 113px;
-    letter-spacing: 0em;
-    text-align: left;
     margin: auto 0 0;
+    font-size: 96px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
     z-index: 1;
   }
 
   // .top__job
   &__job {
-    font-family: Raleway;
+    margin: 24px 0 auto;
     font-size: 32px;
     font-weight: 800;
     line-height: 35px;
     text-align: left;
-    margin: 0 0 auto;
+    text-transform: uppercase;
     z-index: 1;
-    margin-top: 10px;
   }
 
   // .top__location
@@ -86,11 +83,66 @@
   // .top__image
   &__image {
     position: absolute;
+    top: 0;
+    right: -14vh;
     height: 100%;
     width: 75vh;
-    right: -14vh;
     background: url(../../../assets/img/my-photo.png) no-repeat top left;
     background-size: cover;
+  }
+
+  @media screen and (max-width: 1124px) {
+    padding: 0 36px;
+    height: calc(100vh - 80px);
+
+    &__location {
+      position: absolute;
+    }
+
+    &__contacts {
+      top: calc(100vh - 28px - 58px - 80px);
+      left: 36px
+    }
+
+    &__job {
+      margin-bottom: 157px;
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    padding: 0 20px;
+
+    &__image {
+      top: 44px
+    }
+
+    &__location-img {
+      width: 24px;
+      height: 24px;
+    }
+
+    &__location-text {
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    &__name {
+      font-size: 78px;
+      line-height: 74px;
+    }
+
+    &__job {
+      font-size: 24px;
+      line-height: 28px;
+      margin-top: 10px;
+      margin-bottom: 91px;
+    }
+
+    &__contacts {
+      top: calc(100vh - 28px - 40px - 80px);
+      left: 20px
+    }
   }
 
 }

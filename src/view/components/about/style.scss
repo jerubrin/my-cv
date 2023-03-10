@@ -24,4 +24,11 @@
     line-height: 38px;
     text-align: left;
   }
+
+  @media screen and (max-width: 740px) {
+    &__wrapper {
+      margin: 0 20px;
+    }
+  }
+
 }

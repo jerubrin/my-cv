@@ -44,5 +44,42 @@
     line-height: 38px;
     text-align: right;
   }
-  
+
+  @media screen and (max-width: 960px) {
+    padding: 93px 36px 40px;
+
+    &__title {
+      text-align: right;
+    }
+
+    &__list {
+      gap: 68px;
+    }
+
+    &__right-warpper {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    &__where {
+      text-align: right;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    padding: 93px 20px 40px;
+
+    &__list {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    &__year {
+      text-align: right;
+      margin-top: 48px;
+    }
+  }
+
 }

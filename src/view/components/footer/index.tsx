@@ -54,8 +54,34 @@ function Footer() {
             </li>
           )}
         </ul>
+        <nav className="footer__left-mobile">
+          <ul className="footer__links">
+              <li className="footer__link">
+                  <a href="#about">{lang[lng]["about"]}</a>
+              </li>
+              <li className="footer__link">
+                  <a href="#skills">{lang[lng]["skills"]}</a>
+              </li>
+              <li className="footer__link">
+                  <a href="#languages">{lang[lng]["languages"]}</a>
+              </li>
+              <li className="footer__link">
+                  <a href="#education">{lang[lng]["education"]}</a>
+              </li>
+              <li className="footer__link">
+                  <a href="#courses">{lang[lng]["courses"]}</a>
+              </li>
+              <li className="footer__link">
+                  <a href="#projects">{lang[lng]["projects"]}</a>
+              </li>
+          </ul>
+        </nav>
         <a className="footer__rs-logo" href="https://rs.school/" target="_blank" />
         <p className="footer__designed-by">designed by Alexey Kuptsov</p>
+      </div>
+      <div className="footer__bottom-mobile">
+        <a className="footer__rs-logo-mobile" href="https://rs.school/" target="_blank" />
+        <p className="footer__designed-by-mobile">designed by Alexey Kuptsov</p>
       </div>
     </section>
   )

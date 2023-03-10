@@ -128,5 +128,91 @@
       }
     }
   }
+
+  @media screen and (max-width: 740px) {
+    padding: 77px 20px 172px;
+    
+    &__list {
+      gap: 100px;
+    }
+
+    &__item {
+      overflow: visible;
+    }
+    
+    &__github {
+      opacity: 1;
+      position: relative;
+      bottom: -62px;
+    }
+
+    &__github-url {
+      left: 0;
+      color: #455C68;
+    }
+
+    &__github-icon {
+      background: url(../../../assets/svg/github-proj-black.svg);
+    }
+
+    &__info {
+      opacity: 1;
+      background: transparent;
+    }
+
+    &__name {
+      position: relative;
+      top: -68px;
+      color: #455C68;
+    }
+
+    &__item:hover {
+      .projects__screenshot {
+        filter: none;
+      }
+    }
+
+    &__description {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    &__name {
+      top: -52px;
+    }
+
+    &__github {
+      bottom: -52px;
+    }
+
+    // 0.615384615384615
+    &__item {
+      width: calc(100vw - 60px);
+      height: calc((100vw - 60px) * 0.615384615384615);
+    }
+
+    &__screenshot {
+      width: calc(100vw - 60px);
+      height: calc((100vw - 60px) * 0.615384615384615);
+      background-position: center;
+      background-size: contain;
+    }
+
+    &__name {
+      margin-bottom: 18px;
+      font-size: 18px;
+      line-height: 18px;
+    }
   
+    &__github-icon {
+      width: 32px;
+      height: 32px;
+      background-size: contain;
+    }
+  
+    &__github-url {
+      font-size: 16px;
+    }
+  }
 }

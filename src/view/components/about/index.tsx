@@ -1,6 +1,6 @@
 import { createRef, useEffect, useRef } from "react";
 import lang from "../../../data/lang";
-import { trans, useLangStore } from "../../../hooks/lang-state"
+import { useLangStore } from "../../../hooks/lang-state"
 import './style.scss'
 
 function About() {
