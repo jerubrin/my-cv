@@ -1,6 +1,7 @@
 @media print {
   .p-left {
-    min-width: 31.428571428571429vw;
+    width: 30vw;
+    max-width: 187px;
     min-height: 100vh;
     background: #DCE6F2;
   }
