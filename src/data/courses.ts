@@ -1,7 +1,8 @@
 import android from "../assets/img/android-2021.jpg";
-import preSchool from "../assets/img/pre-school-2022q2.jpg";
+import angular from "../assets/img/angular-2023Q1.jpg";
 import jsFront from "../assets/img/javascript-frontend-2022Q3.jpg";
-import noSert from "../assets/img/no-sert.jpg";
+import preSchool from "../assets/img/pre-school-2022q2.jpg";
+// import noSert from "../assets/img/no-sert.jpg";
 
 const courses = [
   {
@@ -28,13 +29,14 @@ const courses = [
     isNoSetr: false,
     url: "https://app.rs.school/certificate/0lxjggx1",
   },
-  // {
-  //   year: "2023-2023",
-  //   where: "The Rolling Scopes School",
-  //   profession: "Angular 2023Q1",
-  //   picture: noSert,
-  //   isNoSetr: true,
-  // },
+  {
+    year: "2023-2023",
+    where: "The Rolling Scopes School",
+    profession: "Angular 2023Q1",
+    picture: angular,
+    isNoSetr: false,
+    url: "https://app.rs.school/certificate/v91sdmhh",
+  },
 ];
 
 export default courses;

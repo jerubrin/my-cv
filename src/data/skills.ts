@@ -17,6 +17,12 @@ import iconJson from "../assets/svg/16-json.svg";
 import iconBem from "../assets/svg/17-bem.svg";
 import iconStylus from "../assets/svg/18-stylus.svg";
 import iconZustand from "../assets/svg/19-zustand.png";
+import iconMobx from "../assets/svg/20-mobx.svg";
+import iconAngular from "../assets/svg/21-angular.svg";
+import iconRxjs from "../assets/svg/22-rxjs.svg";
+import iconNgrx from "../assets/svg/23-ngrx.svg";
+import iconAws from "../assets/svg/24-aws.svg";
+import iconGraphql from "../assets/svg/25-graphql.svg";
 
 
 import iconHtmlBw from "../assets/svg/01-html-bw.svg";
@@ -38,6 +44,12 @@ import iconJsonBw from "../assets/svg/16-json-bw.svg";
 import iconBemBw from "../assets/svg/17-bem-bw.svg";
 import iconStylusBw from "../assets/svg/18-stylus-bw.svg";
 import iconZustandBw from "../assets/svg/19-zustand-bw.png";
+import iconMobxBw from "../assets/svg/20-mobx-bw.svg";
+import iconAngularBw from "../assets/svg/21-angular-bw.svg";
+import iconRxjsBw from "../assets/svg/22-rxjs-bw.svg";
+import iconNgrxBw from "../assets/svg/23-ngrx-bw.svg";
+import iconAwsBw from "../assets/svg/24-aws-bw.svg";
+import iconGraphqlBw from "../assets/svg/25-graphql-bw.svg";
 
 const skills = [
   {
@@ -145,6 +157,7 @@ const skills = [
     icon: iconCicd,
     iconBw: iconCicdBw,
     colors: [ "#81AACB", "#3B94D9" ],
+    hide: true,
   },
   {
     id: "figma",
@@ -161,6 +174,7 @@ const skills = [
     iconBw: iconJsonBw,
     colors: [ "#A0A0A0", "#565656" ],
     width: 35,
+    hide: true,
   },
   {
     id: "bem",
@@ -183,6 +197,48 @@ const skills = [
     icon: iconZustand,
     iconBw: iconZustandBw,
     colors: [ "#AA6351", "#443E38" ],
+  },
+  {
+    id: "mobx",
+    name: "MobX",
+    icon: iconMobx,
+    iconBw: iconMobxBw,
+    colors: [ "#E28D5A", "#D65813" ],
+  },
+  {
+    id: "graphql",
+    name: "GraphQL",
+    icon: iconGraphql,
+    iconBw: iconGraphqlBw,
+    colors: [ "#E6ABD3", "#C9469E" ],
+  },
+  {
+    id: "angular",
+    name: "Angular",
+    icon: iconAngular,
+    iconBw: iconAngularBw,
+    colors: [ "#EE5275", "#C3002F" ],
+  },
+  {
+    id: "rxjs",
+    name: "RxJS",
+    icon: iconRxjs,
+    iconBw: iconRxjsBw,
+    colors: [ "#8245B9", "#DF1D85" ],
+  },
+  {
+    id: "ngrx",
+    name: "NgRx",
+    icon: iconNgrx,
+    iconBw: iconNgrxBw,
+    colors: [ "#BB2BD2", "#4B3150" ],
+  },
+  {
+    id: "aws",
+    name: "AWS",
+    icon: iconAws,
+    iconBw: iconAwsBw,
+    colors: [ "#FFB13B", "#314057" ],
   },
 ]
 

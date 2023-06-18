@@ -4,6 +4,7 @@ import project3 from "../assets/img/03-poject.jpg";
 import project4 from "../assets/img/04-poject.jpg";
 import project5 from "../assets/img/05-poject.jpg";
 import project6 from "../assets/img/06-poject.jpg";
+import project7 from "../assets/img/07-poject.png";
 
 const projects = [
   {
@@ -65,6 +66,16 @@ const projects = [
     forPrint: true,
     shortDescription: "Gaming Zone Short Desc",
     screenshot: project6,
+  },
+  {
+    name: "Airways",
+    description: "Airways Desc",
+    git: "jerubrin/air-ways.online",
+    url: "http://air-ways.online/",
+    gitUrl: "https://github.com/jerubrin/air-ways.online",
+    forPrint: false,
+    shortDescription: "Airways Short Desc",
+    screenshot: project7,
   },
 ];
 
