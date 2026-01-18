@@ -28,6 +28,9 @@ function Header() {
                     <a href="#courses">{lang[lng]["courses"]}</a>
                 </li>
                 <li className="header__link">
+                    <a href="#work">{lang[lng]["work"]}</a>
+                </li>
+                <li className="header__link">
                     <a href="#projects">{lang[lng]["projects"]}</a>
                 </li>
             </ul>

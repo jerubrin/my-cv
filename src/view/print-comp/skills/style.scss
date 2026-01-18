@@ -1,7 +1,7 @@
 @media print {
   .p-skills {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding: 18px 8px 0;
     gap: 4px;
 

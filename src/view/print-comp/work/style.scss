@@ -1,0 +1,53 @@
+@media print {
+  .p-work {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px 0;
+
+    // .p-work__item
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    // .p-work__period
+    &__period {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14px;
+      text-align: right;
+      flex-shrink: 0;
+      width: 80px;
+    }
+
+    // .p-work__right
+    &__right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+      gap: 4px;
+      flex: 1;
+      min-width: 0;
+    }
+
+    // .p-work__company
+    &__company {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: left;
+    }
+
+    // .p-work__position
+    &__position {
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 13px;
+      text-align: left;
+    }
+  }
+}
+

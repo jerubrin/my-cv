@@ -32,6 +32,9 @@ function PopMenu() {
             <a href="#courses">{lang[lng]["courses"]}</a>
           </li>
           <li className="pop-menu__link" onClick={hidePopMenu}>
+            <a href="#work">{lang[lng]["work"]}</a>
+          </li>
+          <li className="pop-menu__link" onClick={hidePopMenu}>
             <a href="#projects">{lang[lng]["projects"]}</a>
           </li>
         </ul>

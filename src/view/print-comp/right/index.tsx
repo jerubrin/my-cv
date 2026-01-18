@@ -5,6 +5,7 @@ import locationIcon from "../../../assets/svg/location.svg"
 import PAbout from "../about";
 import PEducation from "../education";
 import PCourses from "../courses";
+import PWork from "../work";
 import PProjects from "../projects";
 
 function Right() {
@@ -21,14 +22,17 @@ function Right() {
       <div className="p-title-right">{lang[lng]["about"]}</div>
       <PAbout />
       <div className="p-hr" />
+      <div className="p-title-right">{lang[lng]["work"]}</div>
+      <PWork />
+      <div className="p-hr" />
       <div className="p-title-right">{lang[lng]["education"]}</div>
       <PEducation />
       <div className="p-hr" />
       <div className="p-title-right">{lang[lng]["courses"]}</div>
       <PCourses />
       <div className="p-hr" />
-      <div className="p-title-right">{lang[lng]["projects"]}</div>
-      <PProjects />
+      {/* <div className="p-title-right">{lang[lng]["projects"]}</div>
+      <PProjects /> */}
     </div>
   )
 }

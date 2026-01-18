@@ -1,0 +1,172 @@
+.work {
+  padding: 93px 36px;
+
+  // .work__title
+  &__title {
+    padding-bottom: 51px;
+  }
+  
+  // .work__list
+  &__list {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 40px;
+    margin: 0 auto;
+    align-items: center;
+    width: 600px;
+  }
+
+  // .work__item (обертка для каждого элемента работы)
+  &__item {
+    display: contents;
+  }
+  
+  // .work__logo-wrapper
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120px;
+  }
+
+  // .work__logo
+  &__logo {
+    max-width: 120px;
+    max-height: 120px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  // .work__logo-placeholder
+  &__logo-placeholder {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  // .work__right-wrapper
+  &__right-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  // .work__company
+  &__company {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #000000f2;
+  }
+
+  // .work__company-link
+  &__company-link {
+    color: #000000f2;
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.7);
+      text-decoration: underline;
+    }
+  }
+
+  // .work__position
+  &__position {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000d4;
+  }
+  
+  // .work__period
+  &__period {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #000000d4;
+  }
+
+  @media screen and (max-width: 960px) {
+    padding: 93px 36px 40px;
+
+    &__title {
+      text-align: center;
+      justify-content: center;
+    }
+
+    &__title {
+      text-align: right;
+      color: #000000f2;
+    }
+
+    &__list {
+      gap: 40px;
+    }
+
+    &__list {
+      grid-template-columns: 1fr 3fr;
+    }
+
+    &__right-wrapper {
+      align-items: flex-end;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    padding: 93px 20px 40px;
+
+    &__title {
+      text-align: center;
+    }
+
+    &__list {
+      gap: 24px;
+    }
+
+    &__list {
+      grid-template-columns: 1fr;
+      width: auto;
+      justify-items: center;
+    }
+
+    &__logo-wrapper {
+      margin-top: 24px;
+    }
+
+    &__right-wrapper {
+      align-items: center;
+      text-align: center;
+    }
+
+    &__company {
+      font-size: 26px;
+      line-height: 31px;
+    }
+
+    &__position {
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    &__period {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
