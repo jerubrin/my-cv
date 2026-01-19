@@ -17,10 +17,10 @@ const privateLang = {
     "frontend developer": "fullstack developer",
     "Kazakhstan, Karaganda": "Kazakhstan, Karaganda",
 
-    "about1": "I am a <span>fullstack developer</span> with extensive experience in developing educational projects.",
-    "about2": "During my training, I completed more than a dozen different projects as part of the <span>Rolling Scopes School</span> training course.",
-    "about3": "I have experience working with various <span>tools</span> and <span>libraries</span>, and experience in team development following the <span>git-flow</span> methodology.",
-    "about4": "My work is highly appreciated by other students and mentors of the school.",
+    "about1": "<span>Fullstack developer</span> with over <span>3 years of experience</span> in developing and maintaining web applications.",
+    "about2": "I have experience in <span>team collaboration</span> and <span>development management</span>: coordinated the department's work, participated in task planning and technical decision-making for product development. Took part in <span>architecture design</span>, technology selection, and code quality improvement.",
+    "about3": "Worked not only with web applications, but also with <span>mobile development</span> and <span>browser extensions</span>. Well-versed in the <span>full development lifecycle</span>, adhering to best practices and teamwork processes.",
+    "about4": "Working with modern technology stack: <span>React/React Native</span>, <span>Angular</span>, <span>Next.js</span> on the frontend; <span>Node.js</span>, <span>NestJS</span>, <span>PostgreSQL</span>, <span>MongoDB</span> on the backend. Experience with <span>CI/CD</span> setup, <span>AWS</span> and <span>Yandex Cloud</span>, <span>Docker</span> and <span>Nginx</span>. Constantly learning new technologies and tools to improve development efficiency.",
 
     "Russian": "Russian",
     "English": "English",
@@ -68,10 +68,10 @@ const privateLang = {
     "frontend developer": "fullstack разработчик",
     "Kazakhstan, Karaganda": "Казахстан, Караганда",
 
-    "about1": "Я начинающий <span>fullstack разработчик</span> c большим опытом разработки учебных проектов.",
-    "about2": "В процессе обучения мною было выполнено более десятка различных работ, в рамках учебного курса <span>Rolling Scopes School</span>.",
-    "about3": "Имеется опыт работы с различными <span>инструментами</span> и <span>библиотеками</span>, опыт командной разработки, согласно методологии <span>git-flow</span>.",
-    "about4": "Мои работы имеют высокую оценку, как среди других студентов, так и среди менторов школы.",
+    "about1": "<span>Fullstack-разработчик</span> с более чем <span>3-летним опытом</span> разработки и сопровождения веб-приложений.",
+    "about2": "Имею опыт <span>командной работы</span> и <span>управления разработкой</span>: координировал работу отдела, участвовал в планировании задач и принятии технических решений по развитию продукта. Принимал участие в <span>проектировании архитектуры</span>, выборе технологий и улучшении качества кода.",
+    "about3": "Работал не только с веб-приложениями, но и с <span>мобильной разработкой</span>, а также с <span>браузерными расширениями</span>. Хорошо ориентируюсь в <span>полном цикле разработки</span>, придерживаюсь лучших практик и процессов командной работы.",
+    "about4": "Работаю с современным стеком технологий: <span>React/React Native</span>, <span>Angular</span>, <span>Next.js</span> на фронтенде; <span>Node.js</span>, <span>NestJS</span>, <span>PostgreSQL</span>, <span>MongoDB</span> на бэкенде. Имею опыт настройки <span>CI/CD</span>, работы с <span>AWS</span> и <span>Yandex Cloud</span>, <span>Docker</span> и <span>Nginx</span>. Постоянно изучаю новые технологии и инструменты для повышения эффективности разработки.",
 
     "Russian": "Русский",
     "English": "Английский",
