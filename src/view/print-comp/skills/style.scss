@@ -5,6 +5,11 @@
     padding: 18px 8px 0;
     gap: 4px;
 
+    @supports (-webkit-hyphens:none) {
+      gap: 3px;
+      padding: 12px 8px 0;
+    }
+
     // .p-skills__item
     &__item {
       display: flex;

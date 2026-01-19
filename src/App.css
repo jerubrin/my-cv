@@ -96,4 +96,11 @@ span {
     text-align: left;
     color: #000000f2;
   }
+
+  /* Safari-specific styles - reduce base font by 2px */
+  @supports (-webkit-hyphens:none) {
+    body {
+      font-size: 14px !important;
+    }
+  }
 }

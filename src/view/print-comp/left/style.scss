@@ -19,5 +19,9 @@
     font-weight: 800;
     line-height: 16px;
     text-align: left;
+
+    @supports (-webkit-hyphens:none) {
+      font-size: 12px;
+    }
   }
 }

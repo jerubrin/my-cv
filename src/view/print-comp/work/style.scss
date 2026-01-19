@@ -20,6 +20,10 @@
       text-align: right;
       flex-shrink: 0;
       width: 80px;
+
+      @supports (-webkit-hyphens:none) {
+        font-size: 12px;
+      }
     }
 
     // .p-work__right
@@ -39,6 +43,10 @@
       font-weight: 700;
       line-height: 18px;
       text-align: left;
+
+      @supports (-webkit-hyphens:none) {
+        font-size: 16px;
+      }
     }
 
     // .p-work__position
@@ -47,6 +55,10 @@
       font-weight: 300;
       line-height: 13px;
       text-align: left;
+
+      @supports (-webkit-hyphens:none) {
+        font-size: 11px;
+      }
     }
   }
 }

@@ -10,6 +10,10 @@
       font-weight: 400;
       line-height: 47px;
       text-align: left;
+
+      @supports (-webkit-hyphens:none) {
+        font-size: 32px;
+      }
     }
 
     // .p-right__job
@@ -19,6 +23,10 @@
       line-height: 19px;
       text-align: left;
       text-transform: uppercase;
+
+      @supports (-webkit-hyphens:none) {
+        font-size: 14px;
+      }
     }
 
     // .p-right__location
@@ -36,6 +44,10 @@
       font-weight: 700;
       line-height: 14px;
       text-align: left;
+
+      @supports (-webkit-hyphens:none) {
+        font-size: 12px;
+      }
     }
 
     
@@ -48,6 +60,10 @@
     line-height: 14px;
     text-transform: uppercase;
     margin-top: 10px;
+
+    @supports (-webkit-hyphens:none) {
+      font-size: 12px;
+    }
   }
 
   .p-hr {

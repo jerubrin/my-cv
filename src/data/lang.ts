@@ -20,7 +20,7 @@ const privateLang = {
     "about1": "<span>Fullstack developer</span> with over <span>3 years of experience</span> in developing and maintaining web applications.",
     "about2": "I have experience in <span>team collaboration</span> and <span>development management</span>: coordinated the department's work, participated in task planning and technical decision-making for product development. Took part in <span>architecture design</span>, technology selection, and code quality improvement.",
     "about3": "Worked not only with web applications, but also with <span>mobile development</span> and <span>browser extensions</span>. Well-versed in the <span>full development lifecycle</span>, adhering to best practices and teamwork processes.",
-    "about4": "Working with modern technology stack: <span>React/React Native</span>, <span>Angular</span>, <span>Next.js</span> on the frontend; <span>Node.js</span>, <span>NestJS</span>, <span>PostgreSQL</span>, <span>MongoDB</span> on the backend. Experience with <span>CI/CD</span> setup, <span>AWS</span> and <span>Yandex Cloud</span>, <span>Docker</span> and <span>Nginx</span>. Constantly learning new technologies and tools to improve development efficiency.",
+    "about4": "Работаю с современным стеком: <span>React/React Native</span>, <span>Angular</span>, <span>Next.js</span>, <span>Node.js</span>, <span>NestJS</span>, <span>PostgreSQL</span>, <span>MongoDB</span>. Опыт работы с <span>CI/CD</span>, облачными платформами и <span>Docker</span>.",
 
     "Russian": "Russian",
     "English": "English",
@@ -71,7 +71,7 @@ const privateLang = {
     "about1": "<span>Fullstack-разработчик</span> с более чем <span>3-летним опытом</span> разработки и сопровождения веб-приложений.",
     "about2": "Имею опыт <span>командной работы</span> и <span>управления разработкой</span>: координировал работу отдела, участвовал в планировании задач и принятии технических решений по развитию продукта. Принимал участие в <span>проектировании архитектуры</span>, выборе технологий и улучшении качества кода.",
     "about3": "Работал не только с веб-приложениями, но и с <span>мобильной разработкой</span>, а также с <span>браузерными расширениями</span>. Хорошо ориентируюсь в <span>полном цикле разработки</span>, придерживаюсь лучших практик и процессов командной работы.",
-    "about4": "Работаю с современным стеком технологий: <span>React/React Native</span>, <span>Angular</span>, <span>Next.js</span> на фронтенде; <span>Node.js</span>, <span>NestJS</span>, <span>PostgreSQL</span>, <span>MongoDB</span> на бэкенде. Имею опыт настройки <span>CI/CD</span>, работы с <span>AWS</span> и <span>Yandex Cloud</span>, <span>Docker</span> и <span>Nginx</span>. Постоянно изучаю новые технологии и инструменты для повышения эффективности разработки.",
+    "about4": "Работаю с современным стеком: <span>React/React Native</span>, <span>Angular</span>, <span>Next.js</span>, <span>Node.js</span>, <span>NestJS</span>, <span>PostgreSQL</span>, <span>MongoDB</span>. Опыт работы с <span>CI/CD</span>, облачными платформами и <span>Docker</span>.",
 
     "Russian": "Русский",
     "English": "Английский",
