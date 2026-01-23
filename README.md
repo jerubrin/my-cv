@@ -1,2 +1,2 @@
 # Alexey Kuptsov - CV
-### https://alexeykuptsov.work/
+### [https://alexeykuptsov.ru/](https://alexeykuptsov.ru/)
