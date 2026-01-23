@@ -9,8 +9,8 @@ const privateLang = {
     "work": "work experience",
     "projects": "projects",
     "настоящее время": "present",
-    "Декабрь 2022": "December 2022",
-    "Февраль 2023": "February 2023",
+    "Август 2023": "August 2023",
+    "Октябрь 2023": "October 2023",
     "Декабрь 2024": "December 2024",
     
     "Alexey Kuptsov": "Alexey Kuptsov",
