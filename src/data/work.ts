@@ -10,15 +10,15 @@ const work = [
     position: "Trainee Software Engineer (Frontend)",
     logo: company1Logo,
     url: "https://www.epam.com/",
-    startDate: "Август 2023",
-    endDate: "Октябрь 2023",
+    startDate: "Декабрь 2022",
+    endDate: "Февраль 2023",
   },
   {
     company: "Ecitty",
     position: "Full Stack Developer",
     logo: company2Logo,
     url: "https://promo.ecitty.com/",
-    startDate: "Октябрь 2023",
+    startDate: "Февраль 2023",
     endDate: "Декабрь 2024",
   },
   {
