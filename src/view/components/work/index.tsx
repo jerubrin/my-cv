@@ -15,7 +15,7 @@ function Work() {
   return (
     <section className="work" id="work">
       <h3 className="work__title">{lang[lng]["work"]}</h3>
-      <div className="work__list">
+      <div className={`work__list ${expandedIndex !== null ? 'work__list--expanded' : ''}`}>
         {work.map((job, i) => (
           <div key={i} className="work__item">
             <div
