@@ -10,7 +10,7 @@
   &__list {
     display: grid;
     grid-template-columns: 120px 1fr;
-    gap: 40px;
+    gap: 60px;
     margin: 0 auto;
     align-items: center;
     width: 600px;
@@ -77,6 +77,13 @@
     gap: 12px;
     justify-content: center;
     align-items: start;
+    transform: scale(1);
+    transform-origin: left center;
+    transition: transform 0.4s ease;
+
+    &--expanded {
+      transform: scale(1.05);
+    }
   }
 
   // .work__company

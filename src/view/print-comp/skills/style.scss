@@ -2,12 +2,12 @@
   .p-skills {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 18px 8px 0;
+    padding: 18px 8px 0 4px;
     gap: 4px;
 
     @supports (-webkit-hyphens:none) {
       gap: 3px;
-      padding: 12px 8px 0;
+      padding: 12px 8px 0 4px;
     }
 
     // .p-skills__item
@@ -20,6 +20,10 @@
     &__icon {
       width: 16px;
       height: 16px;
+    }
+
+    &__text {
+      font-size: 12px;
     }
   }
 }

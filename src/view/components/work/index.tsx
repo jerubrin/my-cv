@@ -28,7 +28,7 @@ function Work() {
                 <div className="work__logo-placeholder">{job.company.charAt(0)}</div>
               )}
             </div>
-            <div className="work__right-wrapper">
+            <div className={`work__right-wrapper ${expandedIndex === i ? 'work__right-wrapper--expanded' : ''}`}>
               <div className="work__company">
                 {job.url ? (
                   <a href={job.url} target="_blank" rel="noopener noreferrer" className="work__company-link">
