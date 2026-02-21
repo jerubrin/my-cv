@@ -45,17 +45,22 @@ function PWork() {
         const endDate = lang[lng][job.endDate] || job.endDate;
         return (
           <div className="p-work__item" key={i}>
-            <div className="p-work__right">
-              <div className="p-work__company">
-                {lang[lng][job.company] || job.company}
+            <div className="p-work__header">
+              <div className="p-work__right">
+                <div className="p-work__company">
+                  {lang[lng][job.company] || job.company}
+                </div>
+                <div className="p-work__position">
+                  {lang[lng][job.position] || job.position}
+                </div>
               </div>
-              <div className="p-work__position">
-                {lang[lng][job.position] || job.position}
+              <div className="p-work__period">
+                {formatDateForPrint(startDate)} - {formatDateForPrint(endDate)}
               </div>
             </div>
-            <div className="p-work__period">
-              {formatDateForPrint(startDate)} - {formatDateForPrint(endDate)}
-            </div>
+            {job.description && lang[lng][job.description] && (
+              <div className="p-work__description" dangerouslySetInnerHTML={{ __html: lang[lng][job.description] }} />
+            )}
           </div>
         );
       })}

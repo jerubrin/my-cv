@@ -12,6 +12,7 @@ const work = [
     url: "https://www.epam.com/",
     startDate: "Декабрь 2022",
     endDate: "Февраль 2023",
+    description: "EPAM Anywhere Desc",
   },
   {
     company: "Ecitty",
@@ -20,6 +21,7 @@ const work = [
     url: "https://promo.ecitty.com/",
     startDate: "Февраль 2023",
     endDate: "Декабрь 2024",
+    description: "Ecitty Desc",
   },
   {
     company: "Cupcake Development",
@@ -28,6 +30,7 @@ const work = [
     url: "https://cupcakedev.com/",
     startDate: "Декабрь 2024",
     endDate: "настоящее время",
+    description: "Cupcake Development Desc",
   },
 ];
 

@@ -27,9 +27,9 @@ function Right() {
       <div className="p-hr" />
       <div className="p-title-right">{lang[lng]["education"]}</div>
       <PEducation />
-      <div className="p-hr" />
-      <div className="p-title-right">{lang[lng]["courses"]}</div>
-      <PCourses />
+      {/* <div className="p-hr" />
+      <div className="p-title-right">{lang[lng]["courses"]}</div> */}
+      {/* <PCourses /> */}
       <div className="p-hr" />
       {/* <div className="p-title-right">{lang[lng]["projects"]}</div>
       <PProjects /> */}

@@ -18,7 +18,7 @@ function Main() {
       <Work />
       <div className="two-blocks">
         <Education />
-        <Courses />
+        {/* <Courses /> */}
       </div>
       {/* <Projects /> */}
     </>
