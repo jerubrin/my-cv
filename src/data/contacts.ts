@@ -1,12 +1,10 @@
 import whatsapp from "../assets/svg/whatsapp.svg";
 import telegram from "../assets/svg/telegram.svg";
-import linkedin from "../assets/svg/linkedin.svg";
 import email from "../assets/svg/email.svg";
 import github from "../assets/svg/github.svg";
 
 import whatsappBw from "../assets/svg/whatsapp-bw.svg";
 import telegramBw from "../assets/svg/telegram-bw.svg";
-import linkedinBw from "../assets/svg/linkedin-bw.svg";
 import emailBw from "../assets/svg/email-bw.svg";
 import githubBw from "../assets/svg/github-bw.svg";
 
@@ -24,13 +22,6 @@ const contacts = [
     url: "https://t.me/jerubrin",
     icon: telegram,
     iconBw: telegramBw,
-  },
-  {
-    id: "linkedin",
-    text: "alexeykuptsov",
-    url: "https://linkedin.com/in/alexeykuptsov",
-    icon: linkedin,
-    iconBw: linkedinBw,
   },
   {
     id: "email",
