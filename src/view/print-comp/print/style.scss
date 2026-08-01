@@ -4,6 +4,25 @@
 
 @media print {
   .print-section {
+    // Ширина левой колонки. Используется и самой .p-left, и подложкой ниже —
+    // они обязаны совпадать.
+    --p-left-width: 230px;
+
     display: flex;
+    position: relative;
+  }
+
+  // Фон левой колонки печатается отдельным fixed-слоем: fixed позиционируется
+  // относительно страницы и повторяется на каждом листе, поэтому подложка
+  // доходит до низа последней страницы, а не обрывается на конце контента.
+  .print-section::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: var(--p-left-width);
+    background: #DCE6F2;
+    z-index: -1;
   }
 }

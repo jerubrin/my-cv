@@ -1,8 +1,12 @@
 @media print {
   .p-left {
-    width: 32vw;
-    min-width: 230px;
+    // 32vw при A4 всё равно упирался в min-width: 230px, поэтому ширина задана
+    // явно — её же использует подложка .print-section::before.
+    flex: 0 0 var(--p-left-width);
     min-height: 100vh;
+    // Дублирует подложку .print-section::before: в браузерах, которые не
+    // повторяют fixed-слой на каждой странице печати, колонка закрашена хотя бы
+    // на высоту контента — как было раньше.
     background: #DCE6F2;
   }
 

@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Генерируется `npm run pdf`
+pdf
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

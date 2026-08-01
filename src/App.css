@@ -76,12 +76,14 @@ span {
 }
 
 @page {
-  /* size: 21cm 29.7cm; */
-  /* margin: 30mm 45mm 30mm 45mm; */
+  size: A4;
+  /* Без полей: левая колонка печатной вёрстки задумана «в край» листа.
+     Тот же размер использует scripts/generate-pdf.mjs. */
+  margin: 0;
 }
 
 @media print {
-  .header, .top, .about, .footer, .skills, .languages, .two-blocks, .projects {
+  .header, .top, .about, .footer, .skills, .languages, .two-blocks, .projects, .pop-menu {
     display: none !important;
   }
 
