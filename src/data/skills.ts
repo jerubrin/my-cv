@@ -44,6 +44,10 @@ import iconAxios from "../assets/svg/38-axios.svg";
 import iconLottie from "../assets/svg/46-lottie.svg";
 import iconFigma from "../assets/svg/15-figma.svg";
 import iconClaudeai from "../assets/svg/34-claudeai.svg";
+import iconVue from "../assets/svg/47-vue.svg";
+import iconPinia from "../assets/svg/48-pinia.svg";
+import iconVite from "../assets/svg/49-vite.svg";
+import iconFirebase from "../assets/svg/50-firebase.svg";
 
 
 import iconHtmlBw from "../assets/svg/01-html-bw.svg";
@@ -92,6 +96,10 @@ import iconAxiosBw from "../assets/svg/38-axios-bw.svg";
 import iconLottieBw from "../assets/svg/46-lottie-bw.svg";
 import iconFigmaBw from "../assets/svg/15-figma-bw.svg";
 import iconClaudeaiBw from "../assets/svg/34-claudeai-bw.svg";
+import iconVueBw from "../assets/svg/47-vue-bw.svg";
+import iconPiniaBw from "../assets/svg/48-pinia-bw.svg";
+import iconViteBw from "../assets/svg/49-vite-bw.svg";
+import iconFirebaseBw from "../assets/svg/50-firebase-bw.svg";
 
 const skills = [
   // Основные языки
@@ -190,6 +198,20 @@ const skills = [
     colors: [ "#e3d1ff", "#9653ff" ],
   },
   {
+    id: "vue2",
+    name: "Vue 2",
+    icon: iconVue,
+    iconBw: iconVueBw,
+    colors: [ "#41B883", "#35495E" ],
+  },
+  {
+    id: "vue3",
+    name: "Vue 3",
+    icon: iconVue,
+    iconBw: iconVueBw,
+    colors: [ "#41B883", "#35495E" ],
+  },
+  {
     id: "nextjs",
     name: "Next.js",
     icon: iconNextjs,
@@ -248,6 +270,14 @@ const skills = [
     icon: iconMobx,
     iconBw: iconMobxBw,
     colors: [ "#E28D5A", "#D65813" ],
+  },
+  {
+    id: "pinia",
+    name: "Pinia",
+    icon: iconPinia,
+    iconBw: iconPiniaBw,
+    colors: [ "#FFC63A", "#51A256" ],
+    width: 24,
   },
   {
     id: "ngrx",
@@ -324,6 +354,13 @@ const skills = [
     colors: [ "#8ED6FB", "#1C78C0" ],
     width: 29.16,
   },
+  {
+    id: "vite",
+    name: "Vite",
+    icon: iconVite,
+    iconBw: iconViteBw,
+    colors: [ "#41D1FF", "#BD34FE" ],
+  },
   // DevOps
   {
     id: "docker",
@@ -367,6 +404,13 @@ const skills = [
     icon: iconYandexCloud,
     iconBw: iconYandexCloudBw,
     colors: [ "#9EB9FF", "#5282FF" ],
+  },
+  {
+    id: "firebase",
+    name: "Firebase",
+    icon: iconFirebase,
+    iconBw: iconFirebaseBw,
+    colors: [ "#FFC400", "#DD2C00" ],
   },
   {
     id: "sentry",
